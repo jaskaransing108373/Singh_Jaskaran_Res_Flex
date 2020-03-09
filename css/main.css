@@ -7,7 +7,7 @@ body {
   margin: 0 auto ;
   background-color: #efefef;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 
   max-width: 1140px;
 }
@@ -38,6 +38,10 @@ body {
   }
 
 @media only screen and (max-width: 641px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
   .box1 {
     margin: 0 auto;
     width: 100%;
